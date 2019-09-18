@@ -2,7 +2,8 @@ package Median_of_Two_Sorted_Arrays;
 
 public class Main {
   public static void main(String[] args) {
-    int[] arr1 = new int[]{1, 2};
+    String s = "2323";
+    int[] arr1 = {1, 2};
     int[] arr2 = new int[]{};
     System.out.println(findMedianSortedArrays(arr1, arr2));
   }
