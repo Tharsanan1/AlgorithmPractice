@@ -1,6 +1,4 @@
-package HackerRank.ArrayManupulation;
-
-import java.util.ArrayList;
+package HackerRank.Arrays.ArrayManupulation;
 
 public class ArrayManupulation {
   public static void main(String[] args) {

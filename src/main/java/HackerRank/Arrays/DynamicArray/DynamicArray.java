@@ -1,4 +1,4 @@
-package HackerRank.DynamicArray;
+package HackerRank.Arrays.DynamicArray;
 
 import java.util.ArrayList;
 import java.util.List;
