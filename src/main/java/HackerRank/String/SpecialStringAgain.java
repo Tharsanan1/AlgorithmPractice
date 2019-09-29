@@ -7,7 +7,7 @@ public class SpecialStringAgain {
   public static void main(String[] args) {
     substrCount(7, "abcbaba");
     LinkedList<Integer> lList = new LinkedList<>();
-    
+
   }
   static long substrCount(int n, String s) {
     ArrayList<Integer> freqSeq = new ArrayList<>();
