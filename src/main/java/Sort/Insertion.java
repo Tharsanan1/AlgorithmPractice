@@ -9,7 +9,6 @@ public class Insertion {
   public static void sortInsertion(int[] arr){
     for (int i = 1; i < arr.length; i++) {
       int pointer = i;
-      int key = arr[i];
       while (pointer > 0 && arr[pointer] < arr[pointer - 1]){
         int temp = arr[pointer];
         arr[pointer] = arr[pointer - 1];
@@ -26,9 +25,6 @@ public class Insertion {
       int key = arr[i];
       int j = i - 1;
 
-            /* Move elements of arr[0..i-1], that are
-               greater than key, to one position ahead
-               of their current position */
       while (j >= 0 && arr[j] > key) {
         arr[j + 1] = arr[j];
         j = j - 1;
