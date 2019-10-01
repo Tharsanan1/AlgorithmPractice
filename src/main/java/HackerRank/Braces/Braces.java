@@ -1,13 +1,15 @@
 package HackerRank.Braces;
 
+import java.util.ArrayDeque;
 import java.util.HashMap;
+import java.util.Queue;
 import java.util.Stack;
 
 public class Braces {
   public static void main(String[] args) {
-    System.out.println(checkBalanced(new char[]{'{','}','(',')'}));
+    System.out.println(checkBalanced(new char[]{'{', '}', '(', ')'}));
   }
-  public static boolean checkBalanced(char[] braceArr){
+  static boolean checkBalanced(char[] braceArr){
     if(braceArr.length%2 == 1){
       return false;
     }
@@ -31,5 +33,13 @@ public class Braces {
     else{
       return false;
     }
+  }
+
+  static String isBalanced(String s) {
+    if(checkBalanced(s.toCharArray())){
+      return "YES";
+    }
+    return "NO";
+
   }
 }
