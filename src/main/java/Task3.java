@@ -4,9 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 
 public class Task3 {
-  public static void main(String[] args) {
-
-  }
+  public static void main(String[] args) { }
   public static int minCost(int gNodes, List<Integer> gFrom, List<Integer> gTo, List<Integer> gWeight) {
     HashMap<Integer, Node> mapToNode = new HashMap<>();
     for (int i = 0; i < gTo.size(); i++) {
@@ -59,9 +57,6 @@ public class Task3 {
     List<Integer> traversed = new ArrayList<>();
     traversed.add(0);
     return recursiveSearch(traversed, mapToNode, gNodes-1, 0);
-
-
-
   }
 
   static int recursiveSearch(List<Integer> traversed, HashMap<Integer, Node> mapToNode, int index, int from){
