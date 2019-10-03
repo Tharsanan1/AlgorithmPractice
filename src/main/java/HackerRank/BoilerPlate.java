@@ -10,6 +10,7 @@ import static java.util.stream.Collectors.joining;
 
 public class BoilerPlate {
   public static void main(String[] args){
+
     try (BufferedReader bufferedReader = new BufferedReader(
         new InputStreamReader(System.in))) {
 
