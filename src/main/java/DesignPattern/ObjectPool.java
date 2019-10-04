@@ -87,6 +87,7 @@ class SqlConnectionPool extends ObjectPool<Connection>{
     this.pwd = pwd;
   }
 
+
   @Override
   boolean refresh(Connection object) {
     try {
