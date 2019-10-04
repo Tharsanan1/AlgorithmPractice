@@ -5,11 +5,9 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.List;
-import static java.util.stream.Collectors.joining;
 
 public class BoilerPlate {
-  public static void main(String[] args){
+  public static void main(String[] args) {
 
     try (BufferedReader bufferedReader = new BufferedReader(
         new InputStreamReader(System.in))) {
