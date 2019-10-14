@@ -22,6 +22,7 @@ public class StrategyPattern {
 }
 
 class Client{
+
   int[] arr;
   SortingStrategy sortingStrategy;
   public Client(int[] arr){
