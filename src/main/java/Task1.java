@@ -1,8 +1,12 @@
+import javax.ws.rs.core.UriBuilder;
+import javax.ws.rs.core.UriInfo;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.List;
 
 public class Task1 {
-  public static void main(String[] args) {
-
+  public static void main(String[] args) throws URISyntaxException {
+    System.out.println(UriBuilder.fromUri(new URI("https://helo.com")).replaceQuery("heelo"));
   }
 
 
